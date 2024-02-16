@@ -41,6 +41,7 @@ declare module '$env/static/private' {
 	export const ZDOTDIR: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const MallocNanoZone: string;
+	export const npm_package_optional: string;
 	export const COLOR: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
@@ -49,9 +50,11 @@ declare module '$env/static/private' {
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const CONDA_EXE: string;
+	export const npm_package_peer: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
+	export const npm_package_integrity: string;
 	export const _CE_CONDA: string;
 	export const PATH: string;
 	export const npm_package_json: string;
@@ -72,16 +75,20 @@ declare module '$env/static/private' {
 	export const npm_config_npm_version: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const XPC_FLAGS: string;
+	export const npm_package_engines_node: string;
 	export const JAVA_HOME_17: string;
 	export const npm_config_node_gyp: string;
+	export const npm_package_dev: string;
 	export const npm_package_version: string;
 	export const _CE_M: string;
 	export const XPC_SERVICE_NAME: string;
 	export const VSCODE_INJECTION: string;
+	export const npm_package_resolved: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const JAVA_HOME_11: string;
+	export const npm_package_dev_optional: string;
 	export const npm_config_cache: string;
 	export const CONDA_PYTHON_EXE: string;
 	export const LOGNAME: string;
@@ -96,7 +103,6 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -143,6 +149,7 @@ declare module '$env/dynamic/private' {
 		ZDOTDIR: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		MallocNanoZone: string;
+		npm_package_optional: string;
 		COLOR: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
@@ -151,9 +158,11 @@ declare module '$env/dynamic/private' {
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		CONDA_EXE: string;
+		npm_package_peer: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
+		npm_package_integrity: string;
 		_CE_CONDA: string;
 		PATH: string;
 		npm_package_json: string;
@@ -174,16 +183,20 @@ declare module '$env/dynamic/private' {
 		npm_config_npm_version: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		XPC_FLAGS: string;
+		npm_package_engines_node: string;
 		JAVA_HOME_17: string;
 		npm_config_node_gyp: string;
+		npm_package_dev: string;
 		npm_package_version: string;
 		_CE_M: string;
 		XPC_SERVICE_NAME: string;
 		VSCODE_INJECTION: string;
+		npm_package_resolved: string;
 		SHLVL: string;
 		HOME: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		JAVA_HOME_11: string;
+		npm_package_dev_optional: string;
 		npm_config_cache: string;
 		CONDA_PYTHON_EXE: string;
 		LOGNAME: string;
@@ -198,7 +211,6 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
-		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
