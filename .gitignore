@@ -130,5 +130,6 @@ dist
 .pnp.*
 
 .svelte-kit
+build
 
 package-lock.json
