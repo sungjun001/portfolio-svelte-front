@@ -18,7 +18,10 @@ const config = {
 		// 	out: 'public'
 		// 	}
 		// )
-		adapter: azure()
+		adapter: azure({
+				app_location: "build"
+			}
+		)
 	},
 };
 
